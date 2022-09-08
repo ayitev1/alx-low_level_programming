@@ -1,0 +1,1 @@
+Here we do the work about first things in C programming
