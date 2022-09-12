@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char lw='a', up='A';
+	char lw = 'a', up = 'A';
 
 	while (lw <= 'z')
 	{
@@ -16,10 +16,10 @@ int main(void)
 		lw++;
 	}
 	while (up <= 'Z')
-        {
-                putchar(up);
-                up++;
-        }
+	{
+		putchar(up);
+		up++;
+	}
 	putchar('\n');
 	return (0);
 }
