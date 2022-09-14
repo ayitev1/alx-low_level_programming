@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 
-/** 
+/**
  * main - Entry point
- * 
+ *
  * this function is to print _putchar followed by a newline
  * Return: 0 Always - Success
  */
