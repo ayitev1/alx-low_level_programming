@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * this function is to print _putchar followed by a newline
+ * Return: 0 Always - Success
+ */
+
+void print_alphabet(void);
+int main(void)
+{
+	char word[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
+	{
+	_putchar(word[i]);
+	}
+	_putchar('\n');
+	return (0);
+}
+
