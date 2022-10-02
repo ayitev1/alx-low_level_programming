@@ -7,24 +7,25 @@
  * this function is to compare to 0 and return 0 or 1 and print sign
  * Return: 0 Always - Success
  */
-int print_sign(int n)
 
+int print_sign(int n)
 {
-	int i = 1;
+	int i;
 
 	if (n > 0)
 	{
-		return (i);
+		i = 1;
 		_putchar('+');
 	}
 	else if (n < 0)
 	{
-		return (-i);
+		i = -1;
 		_putchar('-');
 	}
 	else
 	{
-		return (0);
+		i = 0;
 		_putchar('0');
 	}
+	return (i);
 }
