@@ -7,7 +7,7 @@
  * ten times
  * Return: 0 Always - Success
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char i;
 	int nb;
