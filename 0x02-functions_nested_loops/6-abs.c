@@ -3,16 +3,15 @@
 
 /**
  * _abs - Entry point
- *
+ * @x: integer value which absolute value will be computed
  * this function is to compute the absolute value of an integer.
  * Return: 0 Always - Success
  */
 
-int _abs(int)
+int _abs(int x)
 {
-	int n;
-
-	n = abs(int);
-	_putchar('n');
-	return (0);
+	if (x >= 0)
+		return (x);
+	else
+		return (x * -1);
 }
