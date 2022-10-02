@@ -6,12 +6,12 @@
  * this function is to check for lowercase character
  * Return: 0 Always - Success
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	char ch;
-	int i;
+	int i = 0;
 
-	for (ch = 'a' || ch = 'A'; ch <= 'z' || ch <= 'Z'; ch++)
+	for ((ch = 'a') || (ch = 'A'); (ch <= 'z') || (ch <= 'Z'); ch++)
 	{
 		if (ch == c)
 			i = 1;
