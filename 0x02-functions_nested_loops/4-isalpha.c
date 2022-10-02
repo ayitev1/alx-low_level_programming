@@ -8,12 +8,13 @@
  */
 int _isalpha(int c)
 {
-	char ch;
+	char ch, CH;
 	int i = 0;
 
-	for ((ch = 'a') || (ch = 'A'); (ch <= 'z') || (ch <= 'Z'); ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (ch == c)
+		for (CH = 'A'; CH <= 'Z'; CH++)
+		if (ch == c || CH == c)
 			i = 1;
 	}
 
